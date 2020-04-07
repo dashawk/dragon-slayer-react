@@ -1,0 +1,88 @@
+.register .register-box {
+  width: 20%;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.register .register-box .register-title {
+  text-align: center;
+  margin: 30px 0;
+  width: 100%;
+}
+
+.register .register-box input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.register .register-box .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.register .register-box button {
+  display: block;
+  border: none;
+  background-color: royalblue;
+  color: white;
+  width: 100%;
+  margin: 10px 5px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.register .register-box button:first-child {
+  margin-left: 0;;
+}
+
+.register .register-box button:last-child {
+  margin-right: 0;
+}
+.register .register-box button[disabled] {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.register .register-box button:hover {
+  opacity: 0.7;
+}
+.register .register-box button:active {
+  opacity: 0.5;
+}
+
+.register .register-box label {
+  display: block;
+  width: 100%;
+}
+
+.register .error-container {
+  text-align: center;
+  color: #EA2027;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .register .register-box {
+    width: 57%;
+  }
+}
+
+/* Small Tablet Devices */
+@media only screen and (min-width: 480px) and (max-width: 800px) {
+  .register .register-box {
+    width: 40%;
+  }
+}
+
+/* Medium Devices */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .register .register-box {
+    width: 25%;
+  }
+}
+
+/* Large Devices */
+@media only screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .register .register-box {
+    width: 20%;
+  }
+}

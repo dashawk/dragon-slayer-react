@@ -1,0 +1,92 @@
+.login .login-box {
+  width: 20%;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.login .login-box .login-title {
+  text-align: center;
+  margin: 30px 0;
+  width: 100%;
+}
+
+.login .login-box input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #dddddd;
+}
+
+.login .login-box .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login .login-box button {
+  display: block;
+  border: none;
+  background-color: royalblue;
+  color: white;
+  width: 100%;
+  margin: 10px 5px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.login .login-box button:first-child {
+  margin-left: 0;;
+}
+
+.login .login-box button:last-child {
+  margin-right: 0;
+}
+
+.login .login-box button[disabled] {
+  opacity: 0.7;
+}
+.login .login-box button:hover {
+  opacity: 0.7;
+}
+.login .login-box button:active {
+  opacity: 0.5;
+}
+
+.login .login-box label {
+  display: block;
+  width: 100%;
+}
+
+.login .error-container {
+  text-align: center;
+  color: #EA2027;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .login .login-box {
+    width: 57%;
+  }
+}
+
+/* Small Tablet Devices */
+@media only screen and (min-width: 480px) and (max-width: 800px) {
+  .login .login-box {
+    width: 40%;
+  }
+}
+
+/* Medium Devices */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .login .login-box {
+    width: 25%;
+  }
+}
+
+/* Large Devices */
+@media only screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .login .login-box {
+    width: 20%;
+  }
+}
